@@ -1,6 +1,7 @@
 void setup()
 {
   size(400,400);
+ // frameRate(40);
 }
 
 
@@ -27,11 +28,17 @@ void draw()
  		fill (255,0,0);
  		ellipse (97,360,8,8);
  		
-	// if (y< -300 );
-  	//{
-  	//	y = y - 3;
-  	//}
-  	y = y + 1;
+ 	
+	 if (y> 100 );
+  	{
+  		y =  y + 3;
+  		//if (y < 0);
+  		//{
+  		//	y = y + 3;
+  		//}
+  	}
+  	y = y + (int).1;
+  	
 
 }
 //void mousePressed()
