@@ -32,9 +32,8 @@ void draw()
 
 }
 
-float x = 0
-float moveCloud = .2
-void cloud()
+
+void clouds()
 {
 		noStroke();
  		fill (220,220,255);
